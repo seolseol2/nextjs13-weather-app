@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import style from "./style.module.css";
 
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
+const API_KEY = process.env.NEXT_PUBLIC_API_KEY + "111";
 
 const getCurrentWeather = async () => {
   const res = await fetch(
