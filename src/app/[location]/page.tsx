@@ -12,6 +12,9 @@ const Detail = ({ params }: Props) => {
   return (
     <>
       <h1>{name}의 3일 예보</h1>
+      <ul>
+        <li>서울</li>
+      </ul>
       <HomeButton />
     </>
   );
